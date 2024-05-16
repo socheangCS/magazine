@@ -93,7 +93,7 @@ useEffect(()=>{
         <List>
         {
          post && post.filter(e=>e.title.toLowerCase().includes(searchTerm.toLowerCase())).slice(0,10).map((item,index)=>(
-             <Link onClick={()=>window.location.reload()} to={`/detail/viewpost/${item.id}`} key={index}>
+             <Link  to={`/detail/viewpost/${item.id}`} key={index}>
               <ListItem >
                 <ListItemPrefix>
                   <Avatar variant="square" alt="candice" src={item.title_img} />
