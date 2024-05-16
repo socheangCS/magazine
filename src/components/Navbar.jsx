@@ -55,7 +55,7 @@ useEffect(()=>{
              menu &&
             <div className='absolute flex flex-col w-60 items-center justify-center bg-black mt-[190px] rounded-md'>
                 <div className='flex flex-col p-2 pb-10'>
-                <Link  to="/hot" className={`text-[16px] ${pathname === 'hot'? 'text-red-600': 'text-white'} font-medium duration-300 hover:duration-300  border-b border-black hover:border-gray-300`}>Hot</Link>
+                <Link  to="/" className={`text-[16px] ${pathname === 'hot'? 'text-red-600': 'text-white'} font-medium duration-300 hover:duration-300  border-b border-black hover:border-gray-300`}>Hot</Link>
                 <Link to='/popular' className={`text-[16px] font-medium ${pathname === 'popular'? 'text-red-600': 'text-white'}  duration-300 hover:duration-300  border-b border-black hover:border-gray-300`}>Popular</Link>
                 <Link to='/it' className={`text-[16px] font-medium ${pathname === 'it'? 'text-red-600': 'text-white'}  duration-300 hover:duration-300  border-b border-black hover:border-gray-300`}>Information Technology</Link>
                 </div>
